@@ -1,0 +1,19 @@
+set planet scale=3
+set moon scale=5
+default planet mass = 1e25
+default planet rotation = counter-clockwise 
+default moon mass = 1e6
+star Sol: pos=0 mass=3e29 radius=100000 color=yellow
+   planet Mercury: pos=57909100 mass=1e24 color=red
+   planet Venus: pos=<5.2e7, 2.3e2, 1.2e2> vel=<2.2e5, 7.2e4, 2e2>
+   planet Earth: pos=<1.45e8, 1220000, 12000> mass=5e25 color=green
+       moon Luna: pos=10000
+           asteroid Jed: pos=1000
+   planet Mars: pos=1e7 mass=4e8
+   planet Jupiter: pos=<2.2e5, 7.2e4, 2e2>
+       moon IO: pos=10000 mass=8e6
+       moon Europa: pos=<12000,8000,0> mass=4e6 color=white
+   planet Saturn: pos=5e9 vel=<9e2,0,0> radius=1200
+   planet Uranus: pos=1e10
+   planet Neptune: pos=8e9 radius=3000
+   comet Halley: pos=1e13

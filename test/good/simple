@@ -1,0 +1,10 @@
+star sol: pos=0 color=yellow
+    planet mercury: pos=7e10 color=blue
+    planet venus: pos=1e11 color=purple
+    planet earth: pos=1e11 color=green
+    planet mars: pos=2e11 color=orange
+    planet jupiter: pos=8e11 color=white
+    planet saturn: pos=2e12 color=gray
+    planet uranus: pos=3e12 color=blue
+    planet neptune: pos=5e12 color=purple
+

@@ -1,0 +1,29 @@
+set moon scale=.3e1
+set blackhole scale = 1.0e1
+set star scale = 10.0
+set comet scale = 1
+set asteroid scale = 0.1
+
+default moon mass=7.3477e22
+default planet mass = 5.9736e24
+default blackhole mass = 2.17644e-8
+default star mass = 1.9891e30
+default comet mass = 2.2e14
+default asteroid mass = 0.43e20
+
+default planet vel = 29.78
+default moon vel = 1.022
+default star vel = 0
+default asteroid vel = 17.882
+default blackhole vel = 0
+default comet vel = 70.56
+
+default planet rotation = clockwise
+
+star Sol: pos=0 radius=6.9566e5 color=yellow
+    planet Earth: pos=147098290 radius = 6371 color =green
+       moon Luna: pos=405410 radius = 1737.10 color = gray
+    asteroid Juno: pos=502.050 mass = 2.67e19 radius=320 color= purple
+    planet Jupiter: pos=816520800 mass = 1.8986e27 radius = 69911 color = orange
+       moon IO: pos=420000 mass=8.9319e22 radius = 1821.3 color = blue
+       moon Europa: pos=664862 mass=4.8e22 radius = 670900 color=white

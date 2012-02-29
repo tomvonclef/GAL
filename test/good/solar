@@ -1,0 +1,26 @@
+set planet scale=1e6
+set moon scale=1e6
+set star scale = 1e8
+set asteroid scale = 0.1
+
+default moon mass=7.3477e22
+default planet mass = 5.9736e24
+default star mass = 1.9891e30
+default asteroid mass = 0.43e23
+
+default planet rotation = clockwise
+
+star Sol: pos=0 vel=0 mass=1.9891e30 radius=6.9566 color=yellow
+    planet Earth: pos=1.4709829e11 vel= 2.978e4 radius = 6.371 color =green
+       moon Luna: pos=4.0541e8 vel=1.022e3 radius = 1.7371 color = gray
+    asteroid Juno: pos=5.0205e11 vel=1.793e4 mass = 2.67e19 radius=3.2e-1 color= purple
+    planet Jupiter: pos=8.165208e11 vel=1.307e4 mass = 1.8986e27 radius = 6.9911e1 color = orange
+       moon IO: pos=4.2e8 vel=1.7334e4 mass=8.9319e22 radius = 1.8213 color = blue
+       moon Europa: pos=6.64862e8 vel=1.3740e4 mass=4.8e22 radius = 1.569 color=white
+    planet Mercury: pos= 6.98169e10 vel=4.787e4 mass=3.3022 radius = 2.4397e-3
+    planet Venus: pos=1.08942109e11 vel=3.502e4 mass=4.8685e24 radius = 6.0518
+    planet Mars: pos=2.492093e11 vel=2.4077e4 mass=6.4185e26 radius = 3.3962
+    planet Saturn: pos=1.513325783e12 vel=9.69e3 mass=5.6846e26 radius = 6.0268e1
+    planet Uranus: pos=3.004419704e12 vel=6.81e3 mass=8.6810e25 radius = 2.5559e-2
+    planet Neptune: pos=4.553946490e12 vel=5.43e3 mass=1.0243e26 radius = 2.4764e-2
+

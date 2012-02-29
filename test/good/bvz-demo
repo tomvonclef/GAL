@@ -1,0 +1,14 @@
+set asteroid scale=5
+set comet scale=5
+
+blackhole Core: pos=0 mass=1e50
+   star Sun: pos=1e15 mass=1.98892e30 radius=6.955e8 color=white 
+     planet Janus: pos=7e13 color=green
+     planet Smiley: pos=1e14 color=red
+       moon Arrakis: pos=4.2e12 color=yellow
+       moon Dune: pos=6.64862e12 color=blue
+     comet Tuttle: pos=2e14 vel=<2.4077e4, 7.2e4, 2e2> color=green
+     comet Snuttle: pos=8e12 vel=<1.307e4, 2.1e3, 8e6> color=gray 
+     asteroid Bvz: pos=2e14 radius=6.0268e1 color=orange
+   star Nemesis: pos=1e15 mass=3e30 radius = 2.55962178e11 color=blue 
+    

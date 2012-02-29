@@ -1,0 +1,5 @@
+default planet mass = 6e24
+
+star Sun: pos=0 mass=3e30 radius=6.955e8
+    planet Earth: pos=1.5e11 vel=<29821, 0, 0> radius=6371000 color=blue
+        moon Moon: pos=<0,5e8,0> vel=900 mass=7e22 radius=1.737e6

@@ -1,0 +1,11 @@
+set planet scale=3
+set moon scale=5
+default moon mass=9 
+ star Sol: pos=0 mass=3e29 radius=100 color=yellow
+  planet Earth: pos=<1.45e8, 1220000, 12000> mass=5e25 color=green
+moon Luna: pos=10000
+        asteroid Jed: pos=1000
+    planet Jupiter: pos=<2.2e5, 7.2e4, 2e2>
+    moon IO: pos=10000 mass=8e6
+    moon Europa: pos=<12000,8000,0> mass=4e6 color=white
+star Alpha: pos=5

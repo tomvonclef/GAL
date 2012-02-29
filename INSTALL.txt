@@ -1,0 +1,21 @@
+Follow these instructions to compile and install
+the GAL compiler.
+
+Once unzipped or untarred the gal package
+execute:
+
+make install
+
+This should place the GAL executable
+in the bin directory. Note that we use an optimizing
+compiler for the architecture given the nature of the
+project and almost certainty that we will be running the
+executable on the platform it was compiled. 
+
+To run one of the programs execute on a command line:
+
+./bin/gal < test/good/<program name>
+
+test/good/ and test/bad/ contain good
+and purposefully faulty GAL scripts that
+are used in testing. 
